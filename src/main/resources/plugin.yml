@@ -1,0 +1,16 @@
+name: VehiclePlaceSpeedLimit
+version: '${project.version}'
+main: land.builders.vehicleplacespeedlimit.VehiclePlaceSpeedLimit
+api-version: 1.19
+website: http://mc.builderintw.net
+author: TWME
+description: "A plugin to limit vehicle spawn rate."
+commands:
+  vpslreload:
+    permission: vpsl.reload
+    description: "Reload VehiclePlaceSpeedLimit config.yml"
+    permission-message: "You don' have permission."
+permissions:
+  vpsl.reload:
+    default: op
+    description: "/vpslreload permission"
