@@ -10,7 +10,7 @@ Put it in the plugins folder, and restart your server.
  default: op
 
 ## Config
-```yaml=
+```yaml
 debug: false
 Config:
   # How many seconds between placing vehicles
