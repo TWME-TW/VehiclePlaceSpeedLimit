@@ -13,7 +13,7 @@ Put it in the plugins folder, and restart your server.
 ```yaml=
 debug: false
 Config:
-  # how many seconds to place a vehicle
+  # How many seconds between placing vehicles
   CreateCooldown: 0.7
 Messages:
   CancelSpawn: '&7Cancels spawning a %vehicle%.'
