@@ -40,7 +40,7 @@ public class Config {
 
         config.setComment("Messages","# debug messages(console)");
         config.addDefault("Messages.CancelSpawn", "&7Cancels spawning a %vehicle%.");
-        config.addDefault("Messages.SpawnVehicle", "&fA %c%vehicle% &fhas been spawned.");
+        config.addDefault("Messages.SpawnVehicle", "&fA &c%vehicle% &fhas been spawned.");
         config.addDefault("Messages.TimeLeft", "&7Time left : %time%s");
         config.addDefault("Messages.Reload", "&3Reloaded VehiclePlaceSpeedLimit config.yml");
 
