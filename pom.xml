@@ -6,7 +6,7 @@
 
     <groupId>land.builders</groupId>
     <artifactId>VehiclePlaceSpeedLimit</artifactId>
-    <version>v1.0</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>VehiclePlaceSpeedLimit</name>
