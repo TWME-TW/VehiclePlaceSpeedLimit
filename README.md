@@ -18,7 +18,7 @@ Config:
 # debug messages(console)
 Messages:
   CancelSpawn: '&7Cancels spawning a %vehicle%.'
-  SpawnVehicle: '&fA %c%vehicle% &fhas been spawned.'
+  SpawnVehicle: '&fA &c%vehicle% &fhas been spawned.'
   TimeLeft: '&7Time left : %time%s'
   Reload: '&3Reloaded VehiclePlaceSpeedLimit config.yml'
 ```
