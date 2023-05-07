@@ -15,6 +15,7 @@ debug: false
 Config:
   # How many seconds between placing vehicles
   CreateCooldown: 0.7
+# debug messages(console)
 Messages:
   CancelSpawn: '&7Cancels spawning a %vehicle%.'
   SpawnVehicle: '&fA %c%vehicle% &fhas been spawned.'
