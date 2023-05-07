@@ -36,7 +36,7 @@ public class Config {
 
         // config
         config.addDefault("Config.CreateCooldown", 0.7);
-        config.setComment("Config.CreateCooldown", "# how many seconds to place a vehicle");
+        config.setComment("Config.CreateCooldown", "# How many seconds between placing vehicles");
 
         config.addDefault("Messages.CancelSpawn", "&7Cancels spawning a %vehicle%.");
         config.addDefault("Messages.SpawnVehicle", "&fA %c%vehicle% &fhas been spawned.");
