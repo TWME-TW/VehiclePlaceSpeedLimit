@@ -1,8 +1,8 @@
 name: VehiclePlaceSpeedLimit
 version: '${project.version}'
 main: land.builders.vehicleplacespeedlimit.VehiclePlaceSpeedLimit
-api-version: 1.19
-website: http://mc.builderintw.net
+api-version: 1.13
+website: https://github.com/TWME-TW/VehiclePlaceSpeedLimit/
 author: TWME
 description: "A plugin to limit vehicle spawn rate."
 commands:
