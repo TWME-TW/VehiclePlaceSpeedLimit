@@ -8,7 +8,6 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.vehicle.VehicleCreateEvent;
 
-import java.util.logging.Level;
 
 public class VehicleCreateListener implements Listener {
     private static long createCooldowns = 1L;
@@ -21,9 +20,9 @@ public class VehicleCreateListener implements Listener {
         long currentTime = System.currentTimeMillis();
         String vehicleName = event.getVehicle().getName();
 
-        long lastCommandTime = createCooldowns;
+        long lastCreateTime = createCooldowns;
 
-        float timeSinceLastCreate = (currentTime - lastCommandTime) / 1000.0F;
+        float timeSinceLastCreate = (currentTime - lastCreateTime) / 1000.0F;
 
         if (timeSinceLastCreate < Config.createCooldowns) {
             event.setCancelled(true);
